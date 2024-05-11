@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: xyz;
+}
+html, body {
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+}
+#nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 40px;
+    background-color: rgb(138, 163, 239);
+}
+#nav_part-1{
+    width: 25%;
+}
+#nav_part-2{
+    width: 45%;
+}
+#nav_part-3{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+#nav h2, #nav h3, #nav h4{
+    font-size: 22px;
+    font-weight: 600;
+}
+#content{
+    margin-top: 40px;
+    padding: 30px 40px;
+    height: 75%;
+}
+#content h1{
+    font-size: 150px;
+    font-weight: 500;
+    word-spacing: 10px;
+    letter-spacing: -7px;
+    line-height: 140px;
+}
+#content h3{
+    font-size: 25px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+#case{
+    padding: 20px 50px;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#case h4, #case h5{
+    font-size: 20px;
+}
+#right{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#line{
+    height: 2px;
+    width: 120px;
+    background-color: black;
+}
+#images{
+    padding: 30px 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 100px;
+}
+#img1{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Sketch_Logo.svg/800px-Sketch_Logo.svg.png);
+    width: 50%;
+    height: 550px;
+    background-color:rgb(211, 231, 241);
+    background-repeat: no-repeat;
+    border-radius: 30px;
+    background-size: cover;
+    background-position: right;
+  
+}
+#img2{
+    background-image: url(https://cdn.dribbble.com/users/2778493/screenshots/14196709/media/1aa3dcf38a8b00efbc482648aad3df9d.png?resize=1000x750&vertical=center);
+    width: 50%;
+    height: 550px;
+    background-color:rgb(190, 221, 237);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 30px;
+    
+}
+#bottom{
+    padding: 10px 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 130px;
+}
+#btm-left, #btm-right{
+    width: 50%;
+}
+#bottom i{
+    border: 2px solid black;
+    border-radius: 30px;
+    font-size: 25px;
+    padding: 10px 20px;
+    
+}
+#bottom i:hover{
+    background-color: black;
+    color: white;
+}
